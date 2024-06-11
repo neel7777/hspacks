@@ -1,27 +1,52 @@
-.App {
+:root {
+  font-size: 16px;
+}
+
+.pentagon-container {
   text-align: center;
+  margin-top: 1.25rem;
 }
 
-.container {
-  display: flex;
-  align-items: stretch;
-  gap: 10px;
-  gap: 10px 20px; /* row-gap column gap */
-  row-gap: 10px;
-  column-gap: 20px;
-
+.pentagon-cards {
+  position: relative;
+  width: 50rem;
+  height: 50rem;
+  margin: 0 auto;
 }
 
-
-
-
-
-.small-image {
-  width: 200px; /* Adjust width as needed */
-  height: auto; /* Maintains aspect ratio */
+.card {
+  width: 12.5rem;
+  height: 18.75rem;
+  position: absolute;
 }
 
-button {
-  margin-bottom: 1rem;
+.card-content img {
+  width: 100%;
+  height: auto;
+}
+
+.card1 {
+  top: 0;
+  left: 18.75rem;
+}
+
+.card2 {
+  top: 12.5rem;
+  left: 3.125rem;
+}
+
+.card3 {
+  top: 12.5rem;
+  left: 34.375rem;
+}
+
+.card4 {
+  top: 31.25rem;
+  left: 9.375rem;
+}
+
+.card5 {
+  top: 31.25rem;
+  left: 28.125rem;
 }
 
