@@ -9,12 +9,15 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  
 }
+
+
 
 
 .pentagon-container {
   text-align: center;
-  margin-top: 1.25rem;
+  
 }
 
 .pentagon-cards {
@@ -22,11 +25,12 @@
   width: 50rem;
   height: 50rem;
   margin: 0 auto;
+  
 }
 
 .card {
-  width: 12.5rem;
-  height: 18.75rem;
+  width: 12rem;
+  
   position: absolute;
 }
 
@@ -35,28 +39,29 @@
   height: auto;
 }
 
+
 .card1 {
   top: 0;
-  left: 18.75rem;
+  left: 19.2rem;
 }
 
 .card2 {
-  top: 12.5rem;
-  left: 3.125rem;
+  top: 10.5rem;
+  left: 3.625rem;
 }
 
 .card3 {
-  top: 12.5rem;
-  left: 34.375rem;
+  top: 10.5rem;
+  left: 34.875rem;
 }
 
 .card4 {
-  top: 31.25rem;
-  left: 9.375rem;
+  top: 28.25rem;
+  left: 9.875rem;
 }
 
 .card5 {
-  top: 31.25rem;
-  left: 28.125rem;
-}
+  top: 28.25rem;
+  left: 28.625rem;
+} 
 
