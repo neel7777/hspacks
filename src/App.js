@@ -3,7 +3,7 @@ import PackOpener from './components/PackOpener';
 
 function App() {
   return (
-    <div className="App">
+    <div className="background">
       <PackOpener/>
       
     </div>
