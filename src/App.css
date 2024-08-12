@@ -66,29 +66,34 @@
 } 
 
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
+  .card {
+    width: 6rem;
+    
+    
+  }
   .card1 {
     top: 0;
-    left: 18rem;
+    left: 9.5rem;
   }
   
   .card2 {
-    top: 10.5rem;
+    top: 9.5rem;
     left: 3rem;
   }
   
   .card3 {
-    top: 10.5rem;
-    left: 32.875rem;
+    top: 9.5rem;
+    left: 15.875rem;
   }
   
   .card4 {
-    top: 28.25rem;
-    left: 7.875rem;
+    top: 20.25rem;
+    left: 5.875rem;
   }
   
   .card5 {
-    top: 28.25rem;
-    left: 26.625rem;
+    top: 20.25rem;
+    left: 13.625rem;
   } 
 }
